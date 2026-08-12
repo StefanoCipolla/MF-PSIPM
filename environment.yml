@@ -1,0 +1,18 @@
+name: psipm-benchmark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - "numpy>=2.1,<3"
+  - "scipy>=1.14,<2"
+  - highspy=1.15.1
+  - highspy-extras=1.15.1
+  - "scikit-sparse>=0.4.16"
+  # Conda package name; the Python module it installs is `qdldl`.
+  - qdldl-python
+  - suitesparse
+  - metis
+  - "libblas=*=*openblas"
+  - tk
+  - psutil
+  - pip
